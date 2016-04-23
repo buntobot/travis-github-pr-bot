@@ -1,0 +1,12 @@
+{
+  "name": "travis-github-pr-bot",
+  "description": "A simple callback to github from travis to comment on the PR that started the build.",
+  "keywords": [
+    "bot",
+    "buntobot",
+    "bunto"
+  ],
+  "website": "https://github.com/buntobot",
+  "repository": "https://github.com/buntobot/travis-github-pr-bot",
+  "logo": "https://raw.githubusercontent.com/buntobot/github-bot/master/buntobot.png"
+}
