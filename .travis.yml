@@ -8,13 +8,4 @@ script:
 - flake8 . | ./travis_bot/travis_bot.py
 env:
   global:
-  - TRAVIS_BOT_GITHUB_TOKEN=cf451704f2f1d2b1701a7aca7849ce2f8debb09c
-deploy:
-  provider: pypi
-  user: koddsson
-  password:
-    secure: dR3Cl+jhIcgZ9zMrT/xMOT5SEuDYjz02DSrMRrrZwnL9wBuljYAXYZDHkIAGpw1TA1TGdE+S0l0EzhTCNEbryl8XKqORlrcmn0WLKy+V9RhwhyaB3NSVz26CoOOsfk/v9zc7Nxsi5gNeWn/7mMESR6CnS3eA14wf+bBPJBGDsVQ=
-  on:
-    tags: true
-    repo: koddsson/travis-github-pr-bot
-    all_branches: true
+  - TRAVIS_BOT_GITHUB_TOKEN=fd79e0549a039717a0a4feb53fd8020cbf6bdb0f
