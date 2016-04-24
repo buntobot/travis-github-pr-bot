@@ -1,1 +1,1 @@
-web: python setup.py
+web: flake8 . | travis_bot
